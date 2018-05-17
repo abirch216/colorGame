@@ -1,0 +1,76 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Bubblegum Sans";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.squares {
+  width: 30%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20%;
+  transition: background 0.5s;
+  --webkit-transition: background 0.5s;
+  --moz-transition: background 0.5s;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+h1 {
+  color: white;
+  line-height: 1.1;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgb(98, 146, 201);
+  margin: 0;
+  padding: 20px 0;
+}
+
+#colorDisplay {
+  font-size: 190%;
+}
+
+#message {
+  color: rgb(54, 55, 56);
+  font-weight: bold;
+  display: inline-block;
+  width: 30%;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background-color: rgb(98, 146, 201);
+}
+
+button {
+  border: none;
+  background-color: none;
+  text-transform: uppercase;
+  color: rgb(98, 146, 201);
+  height: 100%;
+  letter-spacing: 2px;
+  font-size: inherit;
+  transition: all 0.5s;
+  outline: none;
+  --webkit-transition: all 0.5s;
+  --moz-transition: all 0.5s;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(98, 146, 201);
+}
